@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+
+{%block title%} Resume {%endblock%}
+{% block link %}
+<link rel="stylesheet" href="{{ url_for('static', filename='resume.css') }}">{% endblock %}
+
+
+{% block body %}
+
+
+<Main>
+
+    <section class="summary container">
+        <h1>Rafael Rubenstein</h1>
+        <h5>Brooklyn, NY </h5>
+    </section>
+<hr>
+    <section class="education container">
+        <h1>Education</h1>
+        <h4>Computer Science | Brooklyn College | Expected December 2022</h4>
+        <ul>
+            <li><em>Honors and Awards:</em>Dean’s List (Summer 2021 and Fall 2021, Spring 2022)</li>
+            <li><em>Relevant Coursework:</em> Data Structures, Human Computer Interaction, Java, Statistics, Calculus,
+                Linear Algebra, Full Scale Web Applications, Database Systems, Machine Learning </li>
+        </ul>
+    </section>
+<hr>
+    <section class="skills container">
+        <h1>Skills</h1>
+        <ul>
+            <li><em>Programming Languages:</em>Python, Java, HTML & CSS, JavaScript, SQL,PHP</li>
+            <li><em>Tools/Technologies:</em> Git, GitHub, Firebase, SQLite, DB2, Mysql,Postgresql, Streamlit, Flask</li>
+            <li><em>Soft Skills:</em>Detail Oriented, Excellent Communicator, Leader, Analytical Thinker, Teamwork, Time
+                Management, Hard Work Ethic</li>
+        </ul>
+    </section>
+<hr>
+    <section class="projects container">
+        <h1>Projects</h1>
+        <h4>Recyclable</h4>
+        <ul>
+            <li>Led a Team of 3 people to integrate a ML algorithm using AutoML that identifies the composition of items
+                & decides whether or not an item is recyclable </li>
+            <li>Designed user login/signup screen using Java within Android Studio & Google FireBase for the backend &
+                email authentication</li>
+            <li>Programmed logic with AndroidManifest file that requested user permission & allowed for seamless camera
+                access for the app</li>
+        </ul>
+        <h4>Stonks LLC</h4>
+        <ul>
+            <li>Led a team of 3 to develop a web application that uses stock fundamental data to classify stocks as
+                undervalued/overvalued</li>
+            <li>Utilized Pandas, Matplotlib, Seaborn and Numpy for EDA, data cleaning, and visualization </li>
+            <li>Applied different feature engineering methods to find the best features for the model increasing
+                precision by 26%</li>
+            <li>Designed a ML pipeline using Scikit-learn to build and evaluate different models to choose the best one
+                increasing productivity by 75%</li>
+            <li>Deployed web application using Streamlit with best model dumped using pickle allowing user to choose
+                company to predict</li>
+            <li>Scraped financial data using BeautifulSoup and yFinance reducing cognitive overload for user by 90%</li>
+        </ul>
+    </section>
+<hr>
+    <section class="experience container">
+        <h1>Experience</h1>
+
+        <h4>Data Science Fellow | CUNY Tech Prep | Jul 2022 - present</h4>
+        <ul>
+            <li>Selected for a competitive data science fellowship with students from across the 11 CUNY senior colleges
+                where Fellows create technical projects using tools such as Python 3, Jupyter Notebooks, Pandas, Numpy,
+                Scikit-learn,TensorFlow and SQL</li>
+            <li>Participate in weekly courses and learn industry best practices for exploratory data analysis (EDA),
+                feature engineering, data collection and processing, statistical modeling, data visualization, machine
+                learning techniques, data science process, and big data</li>
+        </ul>
+
+        <h4>Computer Science Tutor | Volunteer | Aug 2020 - present</h4>
+        <ul>
+            <li>Educate high school students how to code, answer questions about the field, and encourage them to stay
+                motivated and committed to coding </li>
+            <li>Tutor high school and college students in Java and Python, introducing them to accessible learning
+                resources, supporting them in their pursuit for excellence</li>
+        </ul>
+
+        <h4>Office manager | Platinum Renovations 1 LLC | Jun 2019 - Aug 2021</h4>
+        <ul>
+            <li>Controller, some responsibilities included payroll, AP, AR, Cost analytics, contrast profitability with
+                overhead</li>
+            <li>Managed multiple employees in data entry, payroll & cost reports</li>
+            <li>Performed in an agile, and stressful environment to ensure all deadlines were met </li>
+        </ul>
+
+        <h4>Volunteer Tutor | 2020-present</h4>
+        <ul>
+            <li>Volunteer my own time to teach high school and college students how to code</li>
+            <li>Help students understand how to approach and solve a question like a programmer</li>
+            <li>Assist students in finding the correct resources that are easy and cheaper to use</li>
+        </ul>
+    </section>
+<hr>
+    <section class="activities container">
+        <h1>Activities</h1>
+        <ul>
+            <li>Lead Organizer, Fundraising and Budgeting,Cuny Hackathon</li>
+            <li>Computer Science Club</li>
+        </ul>
+    </section>
+
+</Main>
+
+<hr>
+{% endblock %}

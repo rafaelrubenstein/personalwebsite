@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+.profile-img{
+border-radius: 50%;
+height: 150px;
+margin-bottom: 20px;
+}
+.about-me{
+    border-bottom: 1px solid  #ffd034; 
+    padding: 200px 0;
+}
+
+.projects-btn{
+    margin: 25px 0;
+    padding: 12px 20px;
+    border: solid;
+    border-color: #ffd034;
+    border-radius: 1px;
+    color: #ffd034;
+    text-decoration: underline;
+    /* background-color:hsla(46, 100%, 60%, .5); */
+    background-color: transparent;
+    
+}
+.projects-btn:hover{
+    color: black;
+   background-color: white;
+}

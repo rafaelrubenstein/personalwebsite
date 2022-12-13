@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{%block title%} Home {%endblock%}
+{% block link %}
+<link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">{% endblock %}
+
+{% block body %}
+
+<main>
+    <section class="about-me">
+        <img class ="profile-img" src="static/images/rafael.jpg" alt="picture of me">
+        <p>Rafael Rubenstein</p>
+        <p>Data Scientist - Personal Trainer - Anime Fanatic</p>
+        <a href="{{url_for('projects')}}"><button type="button" class="projects-btn">See My Work</button></a>
+    </section>
+    
+
+</main>
+
+{%endblock%}
