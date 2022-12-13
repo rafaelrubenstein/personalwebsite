@@ -9,6 +9,5 @@ My own personal website
 - blogs 
 
 ### Tasks 
-- project currently in the first stage
-- design and features 
-- end goal is a web application built using flask 
+- Add more functionality either using flask or javascript 
+- improve the design
