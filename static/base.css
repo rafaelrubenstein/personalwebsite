@@ -1,62 +1,83 @@
-.nav-bot{
-    border-bottom: 1px solid #ffd034;
-    margin-bottom: 5px;
-  }
+.nav-bot {
+  border-bottom: 1px solid #ffd034;
+  margin-bottom: 5px;
+}
+
 .nav-link {
   margin: 0 20px;
-  color: #ffd034;  
-}
-.navbar-brand{
   color: #ffd034;
 }
-.navbar-brand:hover , .nav-link:hover{
-color: white;
+
+.navbar-brand {
+  color: #ffd034;
 }
-body{
-    color: white;
-    background-color: black;
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: white;
 }
-ul{
-    display: inline-block;
-    text-align: left; 
-  }
-  
-  footer{
-    margin: 20px;
-    text-align: center;
-  }
-  
-    .footer-icons {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-  
-    .footer-icons li {
-      display: inline-block;
-      margin-right: 10px;
-    }
-  
-    .footer-icons li a {
-      text-decoration: none;
-      color: #ffd034;
-    }
-  
-    .footer-icons li a i {
-      font-size: 24px;
-    }
-    .footer-icons li a:hover {
-    color: white;        
-      }
-   
-    .footer-icons li a:after {
-      content: " Email";
-    }
-    
-    .footer-icons li:nth-child(2) a:after {
-      content: " LinkedIn";
-    }
-  
-    .footer-icons li:nth-child(3) a:after {
-      content: " GitHub";
-    }
+
+body {
+  color: white;
+  background-color: black;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+footer {
+  margin: 20px;
+  text-align: center;
+  padding-top: 15px;
+  border-top: 1px solid #ffd034;
+
+}
+
+.footer-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-icons li a {
+  text-decoration: none;
+  color: #ffd034;
+}
+
+.footer-icons li a i {
+  font-size: 24px;
+}
+
+#copywrite i {
+  font-size: 24px;
+  color: #ffd034;
+}
+
+.footer-icons li a:hover {
+  color: white;
+}
+
+#copywrite:after {
+  content: " RR 2022";
+  color: #ffd034;
+}
+
+.footer-icons li:nth-child(2) a:after {
+  content: " Email";
+}
+
+.footer-icons li:nth-child(3) a:after {
+  content: " LinkedIn";
+}
+
+.footer-icons li:nth-child(4) a:after {
+  content: " GitHub";
+}
+

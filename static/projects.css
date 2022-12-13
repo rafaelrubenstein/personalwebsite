@@ -1,0 +1,49 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .proj-img {
+        width: 450px;
+        margin-bottom: 10px;
+    }
+p{
+    font-size: 18px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1400px) {
+    .proj-img {
+        width: 500px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .proj-img {
+        margin-bottom: 10px;
+    }
+}
+
+.proj-img:hover {
+    opacity: 50%;
+
+}
+
+.proj-link {
+    position: relative;
+}
+
+.img-description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffd034;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.proj-link:hover .img-description {
+    visibility: visible;
+    opacity: 1;
+}

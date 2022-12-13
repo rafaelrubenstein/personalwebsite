@@ -3,12 +3,11 @@ body{
 }
 .profile-img{
 border-radius: 50%;
-height: 150px;
+height: 250px;
 margin-bottom: 20px;
 }
 .about-me{
-    border-bottom: 1px solid  #ffd034; 
-    padding: 200px 0;
+    padding: 270px 0;
 }
 
 .projects-btn{
