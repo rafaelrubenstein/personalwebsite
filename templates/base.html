@@ -22,9 +22,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="{{url_for('home')}}">Home</a>
-          <a class="nav-link" href="{{url_for('resume')}}">Resume</a>
-          <a class="nav-link" href="{{url_for('projects')}}">Projects</a>
+          <a class="{{ 'active nav-link' if active_page == 'home' else 'nav-link' }}" href="{{url_for('home')}}">Home</a>
+          <a class="{{ 'active nav-link' if active_page == 'resume' else 'nav-link' }}" href="{{url_for('resume')}}">Resume</a>
+          <a class="{{ 'active nav-link' if active_page == 'projects' else 'nav-link' }}"href="{{url_for('projects')}}">Projects</a>
           <a class="nav-link" href="#contact">Socials and Contact</a>
         </div>
       </div>
