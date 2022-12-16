@@ -3,18 +3,28 @@
   margin-bottom: 5px;
 }
 
-.nav-link {
-  margin: 0 20px;
-  color: #ffd034;
-}
 
+.navbar {
+  --bs-navbar-padding-x: none !important;
+}
 .navbar-brand {
   color: #ffd034;
 }
-
-.navbar-brand:hover,
-.nav-link:hover {
-  color: white;
+.active{
+  background-color: #ffd034;
+  color: black !important;
+}
+.nav-link {
+  margin: 0 20px;
+  color: #ffd034;
+  --bs-nav-link-padding-y:.8rem;
+}
+.nav-link:hover{
+  background-color:  #ffd034;
+  color: black !important;
+}
+.navbar-brand:hover{
+  color: white
 }
 
 body {
