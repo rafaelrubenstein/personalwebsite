@@ -3,8 +3,10 @@ body{
 }
 .profile-img{
 border-radius: 50%;
-height: 250px;
+height: 300px;
 margin-bottom: 30px;
+border-color: #ffd034;
+border-style: solid;
 }
 
 .about-me {
