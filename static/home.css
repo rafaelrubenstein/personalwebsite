@@ -4,11 +4,18 @@ body{
 .profile-img{
 border-radius: 50%;
 height: 250px;
-margin-bottom: 20px;
+margin-bottom: 30px;
 }
-.about-me{
-    padding: 270px 0;
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
 }
+
 
 .projects-btn{
     margin: 25px 0;
