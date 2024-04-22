@@ -19,7 +19,7 @@ main {
 }
 
 .nav-bot {
-  border-bottom: 1px solid #ffd034;
+  border-bottom: 1px solid #ff3300;
   margin-bottom: 5px;
 }
 
@@ -28,19 +28,19 @@ main {
   --bs-navbar-padding-x: none !important;
 }
 .navbar-brand {
-  color: #ffd034;
+  color: #ff3300;
 }
 .active{
-  background-color: #ffd034;
+  background-color: #ff3300;
   color: black !important;
 }
 .nav-link {
   margin: 0 20px;
-  color: #ffd034;
+  color: #ff3300;
   --bs-nav-link-padding-y:.8rem;
 }
 .nav-link:hover{
-  background-color:  #ffd034;
+  background-color:  #ff3300;
   color: black !important;
 }
 .navbar-brand:hover{
@@ -61,7 +61,7 @@ footer {
   margin: 20px;
   text-align: center;
   padding-top: 15px;
-  border-top: 1px solid #ffd034;
+  border-top: 1px solid #ff3300;
 
 }
 
@@ -78,7 +78,7 @@ footer {
 
 .footer-icons li a {
   text-decoration: none;
-  color: #ffd034;
+  color: #ff3300;
 }
 
 .footer-icons li a i {
@@ -87,7 +87,7 @@ footer {
 
 #copywrite i {
   font-size: 24px;
-  color: #ffd034;
+  color: #ff3300;
 }
 
 .footer-icons li a:hover {
@@ -96,7 +96,7 @@ footer {
 
 #copywrite:after {
   content: " Gemini Global Tech LLC 2022";
-  color: #ffd034;
+  color: #ff3300;
 }
 
 .footer-icons li:nth-child(2) a:after {

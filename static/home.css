@@ -5,7 +5,7 @@ body{
 border-radius: 50%;
 height: 300px;
 margin-bottom: 30px;
-border-color: #ffd034;
+border-color: #ff3300;
 border-style: solid;
 }
 
@@ -29,9 +29,9 @@ border-style: solid;
     margin: 25px 0;
     padding: 12px 20px;
     border: solid;
-    border-color: #ffd034;
+    border-color: #ff3300;
     border-radius: 1px;
-    color: #ffd034;
+    color: #ff3300;
     text-decoration: underline;
     /* background-color:hsla(46, 100%, 60%, .5); */
     background-color: transparent;
