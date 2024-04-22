@@ -23,7 +23,7 @@ h1,h4,h5,ul {
       font-size: 15px;
    }
    h1,h4,h5,ul {
-    padding: 0px 125px; /* Extra large screens */
+    padding: 0px 75px; 
   }
 
  }
